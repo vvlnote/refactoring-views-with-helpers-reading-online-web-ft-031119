@@ -43,3 +43,11 @@ Processing by PostsController#index as HTML
 Completed 200 OK in 382ms (Views: 373.9ms | ActiveRecord: 0.9ms)
 
 
+Started GET "/posts/new" for 24.130.199.179 at 2019-06-01 23:29:04 +0000
+Cannot render console from 24.130.199.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 32ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+

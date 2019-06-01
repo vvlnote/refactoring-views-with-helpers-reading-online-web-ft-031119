@@ -31,6 +31,6 @@ class PostsController < ApplicationController
 	private
 
 		def post_params
-			params.require(:post).premit(:title, :description)
+			params.require(:post).permit(:title, :description)
 		end
 end
